@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.regex.*;
 
-record Pair<K, V>(K key, V value) {
-}
+record Pair<K, V>(K key, V value) {}
 
 public class Lexer {
     private final ArrayList<Token> tokens;

@@ -147,7 +147,7 @@ public class Parser {
                             TokenType.INCR, () -> new Incr(parseVariableName()),
                             TokenType.DECR, () -> new Decr(parseVariableName())
                     );
-                    parsedStmts.add(statementSuppliers.get(getCurrToken().tokenType).get());
+                    parsedStmts.add(statementSuppliers.get(getLastToken().tokenType).get());
                     break;
                 case PRINT:
                     advance();
