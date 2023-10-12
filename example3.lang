@@ -1,0 +1,16 @@
+def output(name age);
+    x = age * 2;
+    if x is 24 do;
+        ret age;
+    end;
+    ret 3;
+    print 23;
+end;
+
+print output(23 output(2 12));
+
+def function1(one two);
+    ret one * two;
+end;
+
+print function1(5 6);

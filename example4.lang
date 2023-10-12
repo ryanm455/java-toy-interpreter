@@ -1,0 +1,13 @@
+x = 24;
+
+if x is 0 do;
+    x = 23;
+else;
+    print 56;
+end;
+
+if x is 0 do;
+   x = 23;
+elif x is 23 do;
+   print 545;
+end;
