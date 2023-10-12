@@ -10,6 +10,6 @@ public class Clear extends Stmt {
     public void exec(Stack<Scope> scopeStack) {
         super.exec(scopeStack);
         Scope currentScope = scopeStack.peek();
-        currentScope.define(var, 0);
+        currentScope.assign(var, 0);
     }
 }
