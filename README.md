@@ -11,7 +11,7 @@ This interpreter uses no external libraries, only the Java JDK is required.
 
 ## Usage
 
-1. Write your custom language code in a text file.
+1. Write your code to a text file.
 
    ```txt
    print "Hello, World!";
